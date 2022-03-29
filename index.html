@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Lyrics Search</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="img/icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1>Lyrics Search</h1>
+        </div>
+        <div class="row justify-content-center">
+            <form id="lyrics-form">
+                <div class="form-row">
+                    <div class="form-group col-sm-12 col-md-6">
+                        <label for="artist">Artist</label>
+                        <input type="text" class="form-control" id="artist">
+                    </div>
+                    <div class="form-group col-sm-12 col-md-6">
+                        <label for="song">Song</label>
+                        <input type="text" class="form-control" id="song">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary mt-2">Let's Sing</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row justify-content-center text-center">
+        <pre class="mt-4" id="lyrics"></pre>
+    </div>
+
+    <script src="js/lyrics.js"></script>
+    </body>
+</html>
